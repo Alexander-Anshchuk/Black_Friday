@@ -4,8 +4,8 @@
   overflow: hidden;
 }
 main {
-  background: url(./img/wave.png) no-repeat fixed,
-    url(./img/bg_main.jpg) no-repeat fixed right bottom;
+  background: url(./img/wave.png) no-repeat fixed right bottom,
+    url(./img/bg_main.jpg) no-repeat fixed;
   background-attachment: fixed;
   max-width: 1925px;
   margin: 0 auto;
@@ -13,14 +13,24 @@ main {
 }
 main #bottom_dot_shape {
   position: absolute;
-  bottom: 50px;
-  right: 785px;
+  bottom: 5%;
+  right: 60%;
 }
 main #right_dot_shape {
   position: absolute;
-  right: 50px;
-  top: 50px;
+  right: 3%;
+  top: 5%;
 }
-p {
-  color: #fff;
+main #left_dot_shape {
+  transform: rotate(90deg);
+  position: absolute;
+  top: 25%;
+}
+#dot_circle {
+  max-width: 37%;
+  opacity: 0.05;
+  color: #645959;
+  position: absolute;
+  left: 50%;
+  top: 20%;
 }
