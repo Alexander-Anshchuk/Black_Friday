@@ -1,0 +1,22 @@
+main {
+  background: url(./img/wave.png) no-repeat fixed,
+    url(./img/bg_main.jpg) no-repeat fixed;
+  background-position: right bottom;
+  background-attachment: fixed;
+  max-width: 1925px;
+  margin: 0 auto;
+  height: 1085px;
+}
+main #bottom_dot_shape {
+  position: absolute;
+  bottom: 50px;
+  right: 785px;
+}
+main #right_dot_shape {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+}
+p {
+  color: #fff;
+}
