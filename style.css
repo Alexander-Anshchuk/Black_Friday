@@ -53,17 +53,27 @@ main #left_dot_shape {
 .handwriting_text {
   color: #fff;
   font-family: "Euphoria Script", cursive;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 400;
   margin-left: 8%;
 }
 .main_text {
   font-family: "Wendy One", sans-serif;
   color: #ffde41;
-  font-size: 60px;
+  font-size: 64px;
   font-weight: 900;
   letter-spacing: 3px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .mega_sale {
   background: url(./img/bg_sale.png) no-repeat;
+  padding: 5px 40px;
+  line-height: 40px;
+  padding: 10px 40px;
+  width: 60%;
+  text-align: center;
+  font-family: "Wendy One", sans-serif;
+  font-size: 34px;
+  te
 }
