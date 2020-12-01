@@ -44,6 +44,7 @@ main #left_dot_shape {
 }
 .text {
   width: 30%;
+  text-align: center;
 }
 .handwriting_text {
   color: #fff;
@@ -53,4 +54,8 @@ main #left_dot_shape {
 }
 .main_text {
   font-family: "Candal", sans-serif;
+  color: #ffde41;
+  font-size: 60px;
+  line-height: 1.2;
+  font-weight: 900;
 }
