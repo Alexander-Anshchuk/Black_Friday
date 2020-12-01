@@ -68,9 +68,8 @@ main #left_dot_shape {
 }
 .mega_sale {
   background: url(./img/bg_sale.png) no-repeat;
-  padding: 5px 40px;
+  padding: 8px 40px;
   line-height: 40px;
-  padding: 10px 40px;
   width: 60%;
   text-align: center;
   font-family: "Wendy One", sans-serif;
