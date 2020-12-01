@@ -1,12 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Candal&family=Euphoria+Script&display=swap");
 * {
   padding: 0;
   margin: 0;
   overflow: hidden;
 }
 main {
-  background: url(./img/wave.png) no-repeat fixed right bottom,
-    url(./img/bg_main.jpg) no-repeat fixed;
-  background-attachment: fixed;
+  background-color: #222;
   max-width: 1925px;
   margin: 0 auto;
   height: 1085px;
@@ -22,7 +21,7 @@ main #right_dot_shape {
   top: 5%;
 }
 main #left_dot_shape {
-  transform: rotate(90deg);
+  transform: rotate(90deg) scale(-1, 1);
   position: absolute;
   top: 25%;
 }
@@ -30,7 +29,28 @@ main #left_dot_shape {
   max-width: 37%;
   opacity: 0.05;
   color: #645959;
+}
+#wave {
+  width: 80%;
+  height: ;
   position: absolute;
-  left: 50%;
-  top: 20%;
+  bottom: 0;
+  right: 0;
+}
+.center_items {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.text {
+  width: 30%;
+}
+.handwriting_text {
+  color: #fff;
+  font-family: "Euphoria Script", cursive;
+  font-size: 30px;
+  font-weight: 400;
+}
+.main_text {
+  font-family: "Candal", sans-serif;
 }
