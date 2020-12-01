@@ -43,17 +43,19 @@ main #left_dot_shape {
   width: 75%;
   display: flex;
   justify-content: space-around;
-  align-items: stretch;
+  align-items: top;
+  margin: 10% auto;
 }
 .text {
   width: 40%;
-  text-align: center;
+  /* text-align: center; */
 }
 .handwriting_text {
   color: #fff;
   font-family: "Euphoria Script", cursive;
   font-size: 40px;
   font-weight: 400;
+  margin-left: 8%;
 }
 .main_text {
   font-family: "Wendy One", sans-serif;
