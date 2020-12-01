@@ -64,3 +64,6 @@ main #left_dot_shape {
   font-weight: 900;
   letter-spacing: 3px;
 }
+.mega_sale {
+  background: url(./img/bg_sale.png) no-repeat;
+}
