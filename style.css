@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Candal&family=Euphoria+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Euphoria+Script&family=Wendy+One&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -25,37 +25,40 @@ main #left_dot_shape {
   position: absolute;
   top: 25%;
 }
+.circle {
+  width: 37%;
+}
 #dot_circle {
-  max-width: 37%;
+  width: 100%;
   opacity: 0.05;
   color: #645959;
 }
 #wave {
   width: 80%;
-  height: ;
   position: absolute;
   bottom: 0;
   right: 0;
 }
 .center_items {
+  width: 75%;
   display: flex;
   justify-content: space-around;
-  margin: 0 auto;
+  align-items: stretch;
 }
 .text {
-  width: 30%;
+  width: 40%;
   text-align: center;
 }
 .handwriting_text {
   color: #fff;
   font-family: "Euphoria Script", cursive;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 400;
 }
 .main_text {
-  font-family: "Candal", sans-serif;
+  font-family: "Wendy One", sans-serif;
   color: #ffde41;
   font-size: 60px;
-  line-height: 1.2;
   font-weight: 900;
+  letter-spacing: 3px;
 }
