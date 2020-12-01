@@ -48,7 +48,7 @@ main #left_dot_shape {
 }
 .text {
   width: 40%;
-  /* text-align: center; */
+  line-height: 0.9;
 }
 .handwriting_text {
   color: #fff;
