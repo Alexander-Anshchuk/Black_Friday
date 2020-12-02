@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Euphoria+Script&family=Wendy+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -40,11 +41,11 @@ main #left_dot_shape {
   right: 0;
 }
 .center_items {
-  width: 75%;
+  width: 90%;
   display: flex;
   justify-content: space-around;
   align-items: top;
-  margin: 10% auto;
+  margin: 7% auto;
 }
 .text {
   width: 40%;
@@ -60,7 +61,7 @@ main #left_dot_shape {
 .main_text {
   font-family: "Wendy One", sans-serif;
   color: #ffde41;
-  font-size: 64px;
+  font-size: 80px;
   font-weight: 900;
   letter-spacing: 3px;
   white-space: nowrap;
@@ -68,10 +69,40 @@ main #left_dot_shape {
 }
 .mega_sale {
   background: url(./img/bg_sale.png) no-repeat;
+  width: 50%;
   padding: 8px 40px;
   line-height: 40px;
-  width: 60%;
   text-align: center;
+  position: relative;
+  left: 24%;
   font-family: "Wendy One", sans-serif;
-  font-size: 34px;
+  font-size: 47px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.paragraph {
+  width: 85%;
+  margin: 6% auto;
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  line-height: 30px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  height: 5%;
+  padding: 1%;
+  margin: 0 auto;
+  background-color: #ffde41;
+  border-radius: 25px;
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #222222;
 }
