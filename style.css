@@ -40,6 +40,9 @@ main #left_dot_shape {
   bottom: 0;
   right: 0;
 }
+
+/* adding center items */
+
 .center_items {
   width: 90%;
   display: flex;
@@ -110,6 +113,9 @@ main #left_dot_shape {
   line-height: 1.2;
   font-weight: 900;
 }
+
+/* adding right angle items */
+
 .angle_items{
   width: 9%;
   position: absolute;
