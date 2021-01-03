@@ -45,9 +45,10 @@ main #left_dot_shape {
   display: flex;
   justify-content: space-around;
   align-items: top;
-  margin: 7% auto;
+  margin: 10% auto;
 }
 .text {
+  margin-top: 7%;
   width: 40%;
   line-height: 0.9;
 }
@@ -108,4 +109,47 @@ main #left_dot_shape {
   font-size: 14px;
   line-height: 1.2;
   font-weight: 900;
+}
+.angle_items{
+  width: 9%;
+  position: absolute;
+  left: 90%;
+  top: 70%;
+}
+.small_hand_text {
+  color: #fff;
+  font-family: "Euphoria Script", cursive;
+  font-size: 25px;
+  font-weight: 400;
+}
+.yellow_number{
+  font-family: "Wendy One", sans-serif;
+  font-size: 64px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #ffde41;
+  line-height: 0.9;
+}
+.discount{
+  display: flex;
+}
+.column_persent{
+  display: flex;
+  flex-direction: column;
+}
+.persent{
+  font-size: 32px;
+  line-height: 0.9;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #ffde41;
+  font-family: "Wendy One", sans-serif;
+}
+.off_text{
+  font-size: 22px;
+  line-height: 1;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Wendy One", sans-serif;
 }
